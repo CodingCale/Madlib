@@ -1,0 +1,59 @@
+package javaNotes;
+
+import java.util.Scanner;
+
+public class MadLibsAssignment {
+
+	public static void main(String[] args) {
+		
+Scanner scan = new Scanner(System.in);
+
+		System.out.println("Please enter your full name.");
+		String playername = scan.nextLine();
+		System.out.println("Follow the instructions that are asked of you. When the quesions are done, there will be a Madlib that uses the text you entered!");
+		System.out.println("Press the Enter key to continue.");
+		String answer1 = scan.nextLine(); 
+		System.out.println("Never use a space before or after your response.However, if your response has multiple words, please put spacing between the words. EX: don't do spaceexamle Do: space example");
+		System.out.println("Press the Enter key to begin.");
+		String answer = scan.nextLine();
+		System.out.println("Pick an adjective.");
+		String adjective1 = scan.nextLine();
+		System.out.println("Pick an adjective.");
+		String adjective2 = scan.nextLine();
+		System.out.println("Pick a type of bird.");
+		String typeofbird = scan.nextLine();
+		System.out.println("Pick a room in a house.");
+		String roominahouse = scan.nextLine();
+		System.out.println("Pick a past tense verb	.");
+		String verb1 = scan.nextLine();
+		System.out.println("Pick a verb.");
+		String verb2 = scan.nextLine();
+		System.out.println("Pick a relative's name.");
+		String relativesname = scan.nextLine();
+		System.out.println("Pick a noun.");
+		String noun = scan.nextLine();
+		System.out.println("Pick a liquid.");
+		String liquid = scan.nextLine();
+		System.out.println("Pick a verb that ends in -ing.");
+		String verb3 = scan.nextLine();
+		System.out.println("Pick a part of the body that is plural.");
+		String bodypart = scan.nextLine();
+		System.out.println("Pick a noun that is plural noun.");
+		String pluralnoun = scan.nextLine();
+		System.out.println("Pick a verb that ends in -ing.");
+		String verb4 = scan.nextLine();
+		System.out.println("Pick a noun.");
+		String noun2 = scan.nextLine();
+		
+		System.out.println(playername + "'s Madlib. Made with Cale's code." );
+		System.out.println("It was a "+ adjective1 + ", cold November day. I woke up to the "+ adjective2 + " smell of " + typeofbird + " roasting in the " + roominahouse + " downstairs.  I " + verb1 + " down the stairs to see if I could help " + verb2 + " the dinner. My mom told be to see if " + relativesname + " needs a fresh " + noun + ". So I carried a tray of glasses full of " + liquid + " into the " + verb3 + " room. When I got there, I couldn't belive my " + bodypart + "! There were " + pluralnoun + " " + verb4 + " on the " + noun2 + "!");
+
+	}
+
+		
+	}
+
+		
+
+
+
